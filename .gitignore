@@ -1,0 +1,5 @@
+*/Dockerfile
+*.html
+*.tsv
+*.sh
+Makefile
