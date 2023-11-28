@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Perl benchmark results - higher is better</title>
+</head>
+<body>
+<h1>Perl benchmark results - higher is better</h1>
+<h2><code>accessorArray_new_get*1</code> per second</h2>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="5091bb72-8dbd-11ee-a3db-afbd8ca67924"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('5091bb72-8dbd-11ee-a3db-afbd8ca67924'),[{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"y":[1388557.95333333,1366981.83,1796942.76666667,1745850.06666667],"type":"bar","error_y":{"array":[9127.66620745721,58218.4511651554,26104.2323068697,59927.3653789748],"visible":1,"type":"data"},"name":"5.34.1"},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"name":"5.36.1","error_y":{"array":[23338.8379643108,33592.1061356992,127480.139464327,20876.6013356092],"visible":1,"type":"data"},"type":"bar","y":[1432934.84333333,1395576.93666667,1755648.28666667,1785533.06333333]},{"type":"bar","y":[1478564.21,1429003.79666667,1880022.85666667,1890875.97333333],"name":"5.38.0","error_y":{"array":[3380.69847911144,64095.0259191301,50814.5049172625,78221.7273908528],"visible":1,"type":"data"},"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"error_y":{"visible":1,"array":[45558.3287451806,43670.7332969936,49845.864076029,75214.4722944911],"type":"data"},"name":"5.38.1","y":[1469904.30333333,1424926.54333333,1843357.50333333,1816885.55666667],"type":"bar"}] ,{"barmode":"group","title":"accessorArray_new_get*1 per second, by variation"} );
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="5091d2e1-8dbd-11ee-a3db-b7c7726f0e49"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('5091d2e1-8dbd-11ee-a3db-b7c7726f0e49'),[{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"type":"bar","y":[1388557.95333333,1432934.84333333,1478564.21,1469904.30333333],"name":"nothreads-notaint","error_y":{"type":"data","visible":1,"array":[9127.66620745721,23338.8379643108,3380.69847911144,45558.3287451806]}},{"name":"nothreads-taint","error_y":{"visible":1,"array":[58218.4511651554,33592.1061356992,64095.0259191301,43670.7332969936],"type":"data"},"type":"bar","y":[1366981.83,1395576.93666667,1429003.79666667,1424926.54333333],"x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"type":"bar","y":[1796942.76666667,1755648.28666667,1880022.85666667,1843357.50333333],"name":"threaded-notaint","error_y":{"type":"data","visible":1,"array":[26104.2323068697,127480.139464327,50814.5049172625,49845.864076029]}},{"type":"bar","y":[1745850.06666667,1785533.06333333,1890875.97333333,1816885.55666667],"name":"threaded-taint","error_y":{"array":[59927.3653789748,20876.6013356092,78221.7273908528,75214.4722944911],"visible":1,"type":"data"},"x":["5.34.1","5.36.1","5.38.0","5.38.1"]}] ,{"title":"accessorArray_new_get*1 per second, by perl version","barmode":"group"} );
+</script>
+</body>
+</html>
+<h2><code>accessorArray_new_get*100</code> per second</h2>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="5091e110-8dbd-11ee-a3db-f7906aaaa301"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('5091e110-8dbd-11ee-a3db-f7906aaaa301'),[{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"type":"bar","y":[43821.18,41876.5033333333,56986.4166666667,53632.84],"name":"5.34.1","error_y":{"visible":1,"array":[893.509378723395,1770.81051847891,1713.3647490505,3095.81024603684],"type":"data"}},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"y":[43617.71,42432.87,53945.68,55798.83],"type":"bar","error_y":{"array":[357.359695918086,83.8188157078505,2781.24889299753,1882.03797652084],"visible":1,"type":"data"},"name":"5.36.1"},{"type":"bar","y":[44846.2366666667,42724.8566666667,58802.3466666667,58862.9666666667],"name":"5.38.0","error_y":{"type":"data","visible":1,"array":[77.4990070187318,902.603811548692,1258.70434699955,3703.28447751752]},"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"error_y":{"type":"data","array":[1299.6777256262,600.879824479629,2553.13504760107,1350.09235084946],"visible":1},"name":"5.38.1","y":[44814.7933333333,43781.05,59832.4333333333,59120.6533333333],"type":"bar"}] ,{"barmode":"group","title":"accessorArray_new_get*100 per second, by variation"} );
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="5091eb9b-8dbd-11ee-a3db-aa7369d5e8f9"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('5091eb9b-8dbd-11ee-a3db-aa7369d5e8f9'),[{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"type":"bar","y":[43821.18,43617.71,44846.2366666667,44814.7933333333],"name":"nothreads-notaint","error_y":{"array":[893.509378723395,357.359695918086,77.4990070187318,1299.6777256262],"visible":1,"type":"data"}},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"type":"bar","y":[41876.5033333333,42432.87,42724.8566666667,43781.05],"name":"nothreads-taint","error_y":{"type":"data","visible":1,"array":[1770.81051847891,83.8188157078505,902.603811548692,600.879824479629]}},{"type":"bar","y":[56986.4166666667,53945.68,58802.3466666667,59832.4333333333],"name":"threaded-notaint","error_y":{"type":"data","array":[1713.3647490505,2781.24889299753,1258.70434699955,2553.13504760107],"visible":1},"x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"name":"threaded-taint","error_y":{"array":[3095.81024603684,1882.03797652084,3703.28447751752,1350.09235084946],"visible":1,"type":"data"},"type":"bar","y":[53632.84,55798.83,58862.9666666667,59120.6533333333],"x":["5.34.1","5.36.1","5.38.0","5.38.1"]}] ,{"barmode":"group","title":"accessorArray_new_get*100 per second, by perl version"} );
+</script>
+</body>
+</html>
+<h2><code>accessorArray_new_set*1</code> per second</h2>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="5091f588-8dbd-11ee-a3db-dac872329946"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('5091f588-8dbd-11ee-a3db-dac872329946'),[{"error_y":{"visible":1,"array":[42518.8930963238,35196.3936403805,42874.2631486796,28320.3720157503],"type":"data"},"name":"5.34.1","y":[1521523.84666667,1473357.48333333,2009878.96666667,1940423.90666667],"type":"bar","x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"name":"5.36.1","error_y":{"type":"data","array":[18459.6037978164,12122.4246171136,170836.472516792,96010.1740826771],"visible":1},"type":"bar","y":[1549378.91333333,1506061.6,1959574.35,1981811.10333333],"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"error_y":{"visible":1,"array":[75684.0803765976,56906.2842075689,28728.6422456861,27644.4195617334],"type":"data"},"name":"5.38.0","y":[1533246.56666667,1518961.74333333,2045326.34666667,2017212.34666667],"type":"bar"},{"y":[1535271.16333333,1515409.14,1975920.82,1966204.04333333],"type":"bar","error_y":{"array":[70180.6581784665,39415.6168911799,75093.4542194954,143438.382894987],"visible":1,"type":"data"},"name":"5.38.1","x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]}] ,{"barmode":"group","title":"accessorArray_new_set*1 per second, by variation"} );
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="5091ff06-8dbd-11ee-a3db-b003b1495dbb"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('5091ff06-8dbd-11ee-a3db-b003b1495dbb'),[{"error_y":{"type":"data","visible":1,"array":[42518.8930963238,18459.6037978164,75684.0803765976,70180.6581784665]},"name":"nothreads-notaint","y":[1521523.84666667,1549378.91333333,1533246.56666667,1535271.16333333],"type":"bar","x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"name":"nothreads-taint","error_y":{"array":[35196.3936403805,12122.4246171136,56906.2842075689,39415.6168911799],"visible":1,"type":"data"},"type":"bar","y":[1473357.48333333,1506061.6,1518961.74333333,1515409.14],"x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"error_y":{"type":"data","array":[42874.2631486796,170836.472516792,28728.6422456861,75093.4542194954],"visible":1},"name":"threaded-notaint","y":[2009878.96666667,1959574.35,2045326.34666667,1975920.82],"type":"bar"},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"y":[1940423.90666667,1981811.10333333,2017212.34666667,1966204.04333333],"type":"bar","error_y":{"type":"data","visible":1,"array":[28320.3720157503,96010.1740826771,27644.4195617334,143438.382894987]},"name":"threaded-taint"}] ,{"title":"accessorArray_new_set*1 per second, by perl version","barmode":"group"} );
+</script>
+</body>
+</html>
+<h2><code>accessorArray_new_set*100</code> per second</h2>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="5092088d-8dbd-11ee-a3db-d97878e87159"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('5092088d-8dbd-11ee-a3db-d97878e87159'),[{"name":"5.34.1","error_y":{"type":"data","array":[1036.94145369929,1745.69674548588,4620.41162833885,2384.58007322044],"visible":1},"type":"bar","y":[48967.09,47281.32,64637.0333333333,63216.64],"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"error_y":{"type":"data","array":[2164.85738777921,52.6245705181719,5442.73522599315,2351.47926743051],"visible":1},"name":"5.36.1","y":[48997.3166666667,48240.5033333333,61831.88,64644.9333333333],"type":"bar","x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"y":[48573.9666666667,46950.1133333333,63787.6766666667,62761.0733333333],"type":"bar","error_y":{"array":[1065.71460498995,1262.64070522413,1045.90740830895,4920.71212042413],"visible":1,"type":"data"},"name":"5.38.0","x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"y":[47743.14,48139.6266666667,62326.3133333333,63321.0433333333],"type":"bar","error_y":{"type":"data","visible":1,"array":[3610.79460831916,1736.26950544999,2555.94408563429,3288.21437218169]},"name":"5.38.1","x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]}] ,{"title":"accessorArray_new_set*100 per second, by variation","barmode":"group"} );
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="5092125b-8dbd-11ee-a3db-cf7076dc5f97"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('5092125b-8dbd-11ee-a3db-cf7076dc5f97'),[{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"error_y":{"array":[1036.94145369929,2164.85738777921,1065.71460498995,3610.79460831916],"visible":1,"type":"data"},"name":"nothreads-notaint","y":[48967.09,48997.3166666667,48573.9666666667,47743.14],"type":"bar"},{"type":"bar","y":[47281.32,48240.5033333333,46950.1133333333,48139.6266666667],"name":"nothreads-taint","error_y":{"type":"data","visible":1,"array":[1745.69674548588,52.6245705181719,1262.64070522413,1736.26950544999]},"x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"type":"bar","y":[64637.0333333333,61831.88,63787.6766666667,62326.3133333333],"name":"threaded-notaint","error_y":{"type":"data","visible":1,"array":[4620.41162833885,5442.73522599315,1045.90740830895,2555.94408563429]},"x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"name":"threaded-taint","error_y":{"visible":1,"array":[2384.58007322044,2351.47926743051,4920.71212042413,3288.21437218169],"type":"data"},"type":"bar","y":[63216.64,64644.9333333333,62761.0733333333,63321.0433333333]}] ,{"title":"accessorArray_new_set*100 per second, by perl version","barmode":"group"} );
+</script>
+</body>
+</html>
+<h2><code>accessorClassAccessorFast_new_get*1</code> per second</h2>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="50921e80-8dbd-11ee-a3db-8434717b0cc4"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('50921e80-8dbd-11ee-a3db-8434717b0cc4'),[{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"y":[885473.413333333,861885.74,1045609.21666667,1035762.54],"type":"bar","error_y":{"visible":1,"array":[11432.238143278,15475.8483206404,15199.5881047203,10406.839381458],"type":"data"},"name":"5.34.1"},{"type":"bar","y":[927395.513333333,932506.27,1110339.75666667,1128630.52],"name":"5.36.1","error_y":{"visible":1,"array":[20318.1509485507,19004.2743472515,22033.4922773752,44596.0043420663],"type":"data"},"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"name":"5.38.0","error_y":{"type":"data","visible":1,"array":[21148.4003183178,12300.9065246139,12953.4704409315,11421.9557778516]},"type":"bar","y":[968552.013333333,950204.463333333,1177076.44666667,1175892.01],"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"y":[957168.25,938595.446666667,1168665.23333333,1166817.19666667],"type":"bar","error_y":{"type":"data","array":[11891.4028801428,10896.2201194768,33999.4108347005,36075.289599142],"visible":1},"name":"5.38.1","x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]}] ,{"title":"accessorClassAccessorFast_new_get*1 per second, by variation","barmode":"group"} );
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="50922b0c-8dbd-11ee-a3db-c4c44190ab0b"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('50922b0c-8dbd-11ee-a3db-c4c44190ab0b'),[{"type":"bar","y":[885473.413333333,927395.513333333,968552.013333333,957168.25],"name":"nothreads-notaint","error_y":{"visible":1,"array":[11432.238143278,20318.1509485507,21148.4003183178,11891.4028801428],"type":"data"},"x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"y":[861885.74,932506.27,950204.463333333,938595.446666667],"type":"bar","error_y":{"type":"data","array":[15475.8483206404,19004.2743472515,12300.9065246139,10896.2201194768],"visible":1},"name":"nothreads-taint"},{"type":"bar","y":[1045609.21666667,1110339.75666667,1177076.44666667,1168665.23333333],"name":"threaded-notaint","error_y":{"type":"data","array":[15199.5881047203,22033.4922773752,12953.4704409315,33999.4108347005],"visible":1},"x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"y":[1035762.54,1128630.52,1175892.01,1166817.19666667],"type":"bar","error_y":{"type":"data","visible":1,"array":[10406.839381458,44596.0043420663,11421.9557778516,36075.289599142]},"name":"threaded-taint","x":["5.34.1","5.36.1","5.38.0","5.38.1"]}] ,{"barmode":"group","title":"accessorClassAccessorFast_new_get*1 per second, by perl version"} );
+</script>
+</body>
+</html>
+<h2><code>accessorClassAccessorFast_new_get*100</code> per second</h2>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="509239f7-8dbd-11ee-a3db-943aa3bcf71a"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('509239f7-8dbd-11ee-a3db-943aa3bcf71a'),[{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"y":[34636.7733333333,33766.9433333333,45442.3566666667,43656.23],"type":"bar","error_y":{"array":[626.071808731947,402.821256087057,525.221498756053,2772.77355050859],"visible":1,"type":"data"},"name":"5.34.1"},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"y":[35366.8766666667,34433.5166666667,44601.11,45510.67],"type":"bar","error_y":{"array":[370.115273694858,799.353812414891,2590.18855596782,796.726101660199],"visible":1,"type":"data"},"name":"5.36.1"},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"y":[36235.9733333333,34952.0766666667,46222.9966666667,47086.3266666667],"type":"bar","error_y":{"visible":1,"array":[554.379922756547,410.570696903171,2366.86719730721,1241.57223469098],"type":"data"},"name":"5.38.0"},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"error_y":{"type":"data","visible":1,"array":[931.96543130931,589.516180156803,1077.60555830457,1677.50445897073]},"name":"5.38.1","y":[35731.8666666667,34895.07,46978.4233333333,47333.59],"type":"bar"}] ,{"title":"accessorClassAccessorFast_new_get*100 per second, by variation","barmode":"group"} );
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="5092464e-8dbd-11ee-a3db-95e437ca7827"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('5092464e-8dbd-11ee-a3db-95e437ca7827'),[{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"error_y":{"type":"data","array":[626.071808731947,370.115273694858,554.379922756547,931.96543130931],"visible":1},"name":"nothreads-notaint","y":[34636.7733333333,35366.8766666667,36235.9733333333,35731.8666666667],"type":"bar"},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"y":[33766.9433333333,34433.5166666667,34952.0766666667,34895.07],"type":"bar","error_y":{"type":"data","visible":1,"array":[402.821256087057,799.353812414891,410.570696903171,589.516180156803]},"name":"nothreads-taint"},{"type":"bar","y":[45442.3566666667,44601.11,46222.9966666667,46978.4233333333],"name":"threaded-notaint","error_y":{"type":"data","visible":1,"array":[525.221498756053,2590.18855596782,2366.86719730721,1077.60555830457]},"x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"y":[43656.23,45510.67,47086.3266666667,47333.59],"type":"bar","error_y":{"visible":1,"array":[2772.77355050859,796.726101660199,1241.57223469098,1677.50445897073],"type":"data"},"name":"threaded-taint","x":["5.34.1","5.36.1","5.38.0","5.38.1"]}] ,{"title":"accessorClassAccessorFast_new_get*100 per second, by perl version","barmode":"group"} );
+</script>
+</body>
+</html>
+<h2><code>accessorClassAccessorFast_new_set*1</code> per second</h2>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="5092519a-8dbd-11ee-a3db-a8cead96065a"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('5092519a-8dbd-11ee-a3db-a8cead96065a'),[{"type":"bar","y":[881800.013333333,861079.24,1043501.93666667,1040003.00666667],"name":"5.34.1","error_y":{"type":"data","visible":1,"array":[11560.5880209423,18237.50558696,16133.1738898816,12458.7457033344]},"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"y":[926379.513333333,931744.73,1104941.55333333,1130311.45],"type":"bar","error_y":{"visible":1,"array":[19069.5383083446,7405.18324766289,25396.292991124,22535.1468281231],"type":"data"},"name":"5.36.1"},{"error_y":{"array":[17377.1445019204,12881.3107721535,4543.49633923287,33064.8962706292],"visible":1,"type":"data"},"name":"5.38.0","y":[957743.913333333,944637.39,1179178.50666667,1180703.49],"type":"bar","x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"type":"bar","y":[955975.596666667,944821.693333333,1166328.06666667,1168453.68333333],"name":"5.38.1","error_y":{"type":"data","array":[6993.79107811743,10997.3185176792,63004.0795893944,13856.8024938158],"visible":1}}] ,{"barmode":"group","title":"accessorClassAccessorFast_new_set*1 per second, by variation"} );
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="50925bd4-8dbd-11ee-a3db-eb5b45254e86"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('50925bd4-8dbd-11ee-a3db-eb5b45254e86'),[{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"y":[881800.013333333,926379.513333333,957743.913333333,955975.596666667],"type":"bar","error_y":{"type":"data","array":[11560.5880209423,19069.5383083446,17377.1445019204,6993.79107811743],"visible":1},"name":"nothreads-notaint"},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"y":[861079.24,931744.73,944637.39,944821.693333333],"type":"bar","error_y":{"visible":1,"array":[18237.50558696,7405.18324766289,12881.3107721535,10997.3185176792],"type":"data"},"name":"nothreads-taint"},{"error_y":{"type":"data","array":[16133.1738898816,25396.292991124,4543.49633923287,63004.0795893944],"visible":1},"name":"threaded-notaint","y":[1043501.93666667,1104941.55333333,1179178.50666667,1166328.06666667],"type":"bar","x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"y":[1040003.00666667,1130311.45,1180703.49,1168453.68333333],"type":"bar","error_y":{"array":[12458.7457033344,22535.1468281231,33064.8962706292,13856.8024938158],"visible":1,"type":"data"},"name":"threaded-taint"}] ,{"title":"accessorClassAccessorFast_new_set*1 per second, by perl version","barmode":"group"} );
+</script>
+</body>
+</html>
+<h2><code>accessorClassAccessorFast_new_set*100</code> per second</h2>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="509265c2-8dbd-11ee-a3db-f9bb817d457e"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('509265c2-8dbd-11ee-a3db-f9bb817d457e'),[{"name":"5.34.1","error_y":{"type":"data","array":[987.913955902365,802.541135311247,1942.12669036349,2183.944000035],"visible":1},"type":"bar","y":[34814.89,33856.09,45197.3433333333,45588.6166666667],"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"type":"bar","y":[35075.21,34254.3433333333,44333.53,46255.62],"name":"5.36.1","error_y":{"type":"data","array":[317.811358303428,319.597580855813,2099.41036922275,538.469456391604],"visible":1},"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"error_y":{"type":"data","visible":1,"array":[215.503729485643,1155.75419005177,940.315290291268,201.474506134702]},"name":"5.38.0","y":[34794.6633333333,33983.1166666667,46340.8866666667,45971.5766666667],"type":"bar"},{"error_y":{"visible":1,"array":[331.563287205058,440.997500320452,1295.2272066321,545.70569903159],"type":"data"},"name":"5.38.1","y":[34505.8966666667,34246.0633333333,45278.21,45491.2766666667],"type":"bar","x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]}] ,{"barmode":"group","title":"accessorClassAccessorFast_new_set*100 per second, by variation"} );
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="50926fc2-8dbd-11ee-a3db-edc26dcb199e"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('50926fc2-8dbd-11ee-a3db-edc26dcb199e'),[{"name":"nothreads-notaint","error_y":{"type":"data","visible":1,"array":[987.913955902365,317.811358303428,215.503729485643,331.563287205058]},"type":"bar","y":[34814.89,35075.21,34794.6633333333,34505.8966666667],"x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"name":"nothreads-taint","error_y":{"type":"data","visible":1,"array":[802.541135311247,319.597580855813,1155.75419005177,440.997500320452]},"type":"bar","y":[33856.09,34254.3433333333,33983.1166666667,34246.0633333333],"x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"name":"threaded-notaint","error_y":{"array":[1942.12669036349,2099.41036922275,940.315290291268,1295.2272066321],"visible":1,"type":"data"},"type":"bar","y":[45197.3433333333,44333.53,46340.8866666667,45278.21],"x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"y":[45588.6166666667,46255.62,45971.5766666667,45491.2766666667],"type":"bar","error_y":{"array":[2183.944000035,538.469456391604,201.474506134702,545.70569903159],"visible":1,"type":"data"},"name":"threaded-taint","x":["5.34.1","5.36.1","5.38.0","5.38.1"]}] ,{"barmode":"group","title":"accessorClassAccessorFast_new_set*100 per second, by perl version"} );
+</script>
+</body>
+</html>
+<h2><code>accessorClassAccessor_new_get*1</code> per second</h2>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="50927a1b-8dbd-11ee-a3db-c4436536f9cb"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('50927a1b-8dbd-11ee-a3db-c4436536f9cb'),[{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"y":[658215.92,644769.543333333,827199.126666667,794218.086666667],"type":"bar","error_y":{"array":[3475.88634210037,15164.1732614505,8074.08578597531,41485.6627985117],"visible":1,"type":"data"},"name":"5.34.1"},{"error_y":{"visible":1,"array":[12609.0915747046,13750.8086996156,56878.0494843939,13749.5719353877],"type":"data"},"name":"5.36.1","y":[713118.556666667,697007.283333333,845809.433333333,860255.04],"type":"bar","x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"type":"bar","y":[729085.37,711409.916666667,909403.063333333,894168.876666667],"name":"5.38.0","error_y":{"array":[1690.35138145886,9441.30019625593,6837.7675707857,22216.1919929907],"visible":1,"type":"data"}},{"type":"bar","y":[718491.203333333,705635.023333333,886742.613333333,896075.693333333],"name":"5.38.1","error_y":{"array":[18644.9772675383,20303.4304449689,1642.19677012904,38419.0131103801],"visible":1,"type":"data"},"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]}] ,{"barmode":"group","title":"accessorClassAccessor_new_get*1 per second, by variation"} );
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="509283ea-8dbd-11ee-a3db-98b49456fcb1"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('509283ea-8dbd-11ee-a3db-98b49456fcb1'),[{"name":"nothreads-notaint","error_y":{"array":[3475.88634210037,12609.0915747046,1690.35138145886,18644.9772675383],"visible":1,"type":"data"},"type":"bar","y":[658215.92,713118.556666667,729085.37,718491.203333333],"x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"type":"bar","y":[644769.543333333,697007.283333333,711409.916666667,705635.023333333],"name":"nothreads-taint","error_y":{"type":"data","visible":1,"array":[15164.1732614505,13750.8086996156,9441.30019625593,20303.4304449689]},"x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"error_y":{"type":"data","visible":1,"array":[8074.08578597531,56878.0494843939,6837.7675707857,1642.19677012904]},"name":"threaded-notaint","y":[827199.126666667,845809.433333333,909403.063333333,886742.613333333],"type":"bar"},{"y":[794218.086666667,860255.04,894168.876666667,896075.693333333],"type":"bar","error_y":{"type":"data","visible":1,"array":[41485.6627985117,13749.5719353877,22216.1919929907,38419.0131103801]},"name":"threaded-taint","x":["5.34.1","5.36.1","5.38.0","5.38.1"]}] ,{"barmode":"group","title":"accessorClassAccessor_new_get*1 per second, by perl version"} );
+</script>
+</body>
+</html>
+<h2><code>accessorClassAccessor_new_get*100</code> per second</h2>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="50928da3-8dbd-11ee-a3db-95eb8b34c37e"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('50928da3-8dbd-11ee-a3db-95eb8b34c37e'),[{"y":[16001.03,15670.3433333333,20999.93,20424.1266666667],"type":"bar","error_y":{"type":"data","array":[528.40106005445,343.884070517312,748.779897700254,1263.27861876239],"visible":1},"name":"5.34.1","x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"type":"bar","y":[16250.8666666667,15794.2666666667,20299.2933333333,20630.9366666667],"name":"5.36.1","error_y":{"type":"data","visible":1,"array":[297.414537790083,220.033598848499,1766.96075356025,265.824712838282]}},{"y":[16404.7333333333,15910.05,21605.92,21395.0333333333],"type":"bar","error_y":{"type":"data","array":[248.467265360158,420.066103686867,560.510461870844,737.078087465788],"visible":1},"name":"5.38.0","x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"y":[16345.1433333333,15757.85,21363.3833333333,21705.97],"type":"bar","error_y":{"type":"data","array":[47.9734936072925,482.047344562752,1060.7011724117,467.156395510826],"visible":1},"name":"5.38.1","x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]}] ,{"title":"accessorClassAccessor_new_get*100 per second, by variation","barmode":"group"} );
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="5092979a-8dbd-11ee-a3db-b64216b480be"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('5092979a-8dbd-11ee-a3db-b64216b480be'),[{"type":"bar","y":[16001.03,16250.8666666667,16404.7333333333,16345.1433333333],"name":"nothreads-notaint","error_y":{"array":[528.40106005445,297.414537790083,248.467265360158,47.9734936072925],"visible":1,"type":"data"},"x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"y":[15670.3433333333,15794.2666666667,15910.05,15757.85],"type":"bar","error_y":{"type":"data","array":[343.884070517312,220.033598848499,420.066103686867,482.047344562752],"visible":1},"name":"nothreads-taint","x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"name":"threaded-notaint","error_y":{"visible":1,"array":[748.779897700254,1766.96075356025,560.510461870844,1060.7011724117],"type":"data"},"type":"bar","y":[20999.93,20299.2933333333,21605.92,21363.3833333333],"x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"y":[20424.1266666667,20630.9366666667,21395.0333333333,21705.97],"type":"bar","error_y":{"type":"data","array":[1263.27861876239,265.824712838282,737.078087465788,467.156395510826],"visible":1},"name":"threaded-taint"}] ,{"title":"accessorClassAccessor_new_get*100 per second, by perl version","barmode":"group"} );
+</script>
+</body>
+</html>
+<h2><code>accessorClassAccessor_new_set*1</code> per second</h2>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="5092a149-8dbd-11ee-a3db-abe09f473399"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('5092a149-8dbd-11ee-a3db-abe09f473399'),[{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"y":[669499.923333333,633867.573333333,821910.663333333,805323.956666667],"type":"bar","error_y":{"type":"data","array":[10994.7932454635,36471.0412840373,4065.41586072352,12711.9528255925],"visible":1},"name":"5.34.1"},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"type":"bar","y":[680984.386666667,674011.586666667,855895.07,848254.673333333],"name":"5.36.1","error_y":{"type":"data","visible":1,"array":[16668.1172272202,19055.0754862868,41891.9771584138,33438.630155381]}},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"y":[695131.383333333,679545.76,891050.923333333,892948.866666667],"type":"bar","error_y":{"type":"data","visible":1,"array":[20467.486344648,12836.8496250131,11455.938538759,25635.9892831951]},"name":"5.38.0"},{"type":"bar","y":[689038.386666667,681535.166666667,884063.796666667,886677.546666667],"name":"5.38.1","error_y":{"type":"data","visible":1,"array":[12610.0630988676,30776.9876227129,38975.5275576228,20429.0787750032]},"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]}] ,{"title":"accessorClassAccessor_new_set*1 per second, by variation","barmode":"group"} );
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="5092aabd-8dbd-11ee-a3db-88666e40ffde"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('5092aabd-8dbd-11ee-a3db-88666e40ffde'),[{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"y":[669499.923333333,680984.386666667,695131.383333333,689038.386666667],"type":"bar","error_y":{"visible":1,"array":[10994.7932454635,16668.1172272202,20467.486344648,12610.0630988676],"type":"data"},"name":"nothreads-notaint"},{"name":"nothreads-taint","error_y":{"type":"data","visible":1,"array":[36471.0412840373,19055.0754862868,12836.8496250131,30776.9876227129]},"type":"bar","y":[633867.573333333,674011.586666667,679545.76,681535.166666667],"x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"name":"threaded-notaint","error_y":{"type":"data","visible":1,"array":[4065.41586072352,41891.9771584138,11455.938538759,38975.5275576228]},"type":"bar","y":[821910.663333333,855895.07,891050.923333333,884063.796666667],"x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"type":"bar","y":[805323.956666667,848254.673333333,892948.866666667,886677.546666667],"name":"threaded-taint","error_y":{"visible":1,"array":[12711.9528255925,33438.630155381,25635.9892831951,20429.0787750032],"type":"data"}}] ,{"barmode":"group","title":"accessorClassAccessor_new_set*1 per second, by perl version"} );
+</script>
+</body>
+</html>
+<h2><code>accessorClassAccessor_new_set*100</code> per second</h2>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="5092b431-8dbd-11ee-a3db-91f5d7ea4728"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('5092b431-8dbd-11ee-a3db-91f5d7ea4728'),[{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"y":[16067.7766666667,15599.7533333333,20675.8866666667,20706.41],"type":"bar","error_y":{"visible":1,"array":[293.610536292931,543.075536632695,656.827431285332,191.026456806381],"type":"data"},"name":"5.34.1"},{"y":[15985.8466666667,15646.0233333333,19990.4533333333,20459.46],"type":"bar","error_y":{"visible":1,"array":[152.663670712962,333.917634687892,1195.54578825833,208.082195938687],"type":"data"},"name":"5.36.1","x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"type":"bar","y":[16074.33,15519.7433333333,20711.32,20954.8133333333],"name":"5.38.0","error_y":{"array":[453.874674332023,664.342784077282,808.658757861848,200.423745987234],"visible":1,"type":"data"},"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"error_y":{"array":[302.87904134966,529.934819220461,1134.94296859162,375.090411856483],"visible":1,"type":"data"},"name":"5.38.1","y":[15702.2233333333,15377.2733333333,20676.4766666667,20597.04],"type":"bar"}] ,{"barmode":"group","title":"accessorClassAccessor_new_set*100 per second, by variation"} );
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="5092bd7d-8dbd-11ee-a3db-81fbffe395ff"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('5092bd7d-8dbd-11ee-a3db-81fbffe395ff'),[{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"y":[16067.7766666667,15985.8466666667,16074.33,15702.2233333333],"type":"bar","error_y":{"type":"data","array":[293.610536292931,152.663670712962,453.874674332023,302.87904134966],"visible":1},"name":"nothreads-notaint"},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"name":"nothreads-taint","error_y":{"array":[543.075536632695,333.917634687892,664.342784077282,529.934819220461],"visible":1,"type":"data"},"type":"bar","y":[15599.7533333333,15646.0233333333,15519.7433333333,15377.2733333333]},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"y":[20675.8866666667,19990.4533333333,20711.32,20676.4766666667],"type":"bar","error_y":{"type":"data","array":[656.827431285332,1195.54578825833,808.658757861848,1134.94296859162],"visible":1},"name":"threaded-notaint"},{"name":"threaded-taint","error_y":{"visible":1,"array":[191.026456806381,208.082195938687,200.423745987234,375.090411856483],"type":"data"},"type":"bar","y":[20706.41,20459.46,20954.8133333333,20597.04],"x":["5.34.1","5.36.1","5.38.0","5.38.1"]}] ,{"barmode":"group","title":"accessorClassAccessor_new_set*100 per second, by perl version"} );
+</script>
+</body>
+</html>
+<h2><code>accessorClassXSAccessorArray_new_get*1</code> per second</h2>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="5092c710-8dbd-11ee-a3db-b368dac7b396"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('5092c710-8dbd-11ee-a3db-b368dac7b396'),[{"error_y":{"array":[14901.7400412734,45143.403678999,57360.2406842124,23849.7486535704],"visible":1,"type":"data"},"name":"5.34.1","y":[1402864.65666667,1372437.22,1596907.56666667,1603110.41333333],"type":"bar","x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"y":[1413466.27666667,1397987.32666667,1612200.44,1604078.92333333],"type":"bar","error_y":{"type":"data","array":[42381.6077734491,19843.5116002004,96334.8389038578,6805.20658057899],"visible":1},"name":"5.36.1"},{"error_y":{"type":"data","array":[30557.9247646346,49833.5825864429,38392.4892845081,28365.2560569865],"visible":1},"name":"5.38.0","y":[1473454.78,1448466.54333333,1689522.4,1676901.6],"type":"bar","x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"y":[1469134.3,1446271.37333333,1669719.78666667,1687964.99],"type":"bar","error_y":{"type":"data","visible":1,"array":[14439.0940953511,28313.2880046212,38789.1076884988,25482.2807252411]},"name":"5.38.1"}] ,{"title":"accessorClassXSAccessorArray_new_get*1 per second, by variation","barmode":"group"} );
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="5092d0de-8dbd-11ee-a3db-9814c505d929"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('5092d0de-8dbd-11ee-a3db-9814c505d929'),[{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"y":[1402864.65666667,1413466.27666667,1473454.78,1469134.3],"type":"bar","error_y":{"type":"data","array":[14901.7400412734,42381.6077734491,30557.9247646346,14439.0940953511],"visible":1},"name":"nothreads-notaint"},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"type":"bar","y":[1372437.22,1397987.32666667,1448466.54333333,1446271.37333333],"name":"nothreads-taint","error_y":{"type":"data","array":[45143.403678999,19843.5116002004,49833.5825864429,28313.2880046212],"visible":1}},{"name":"threaded-notaint","error_y":{"visible":1,"array":[57360.2406842124,96334.8389038578,38392.4892845081,38789.1076884988],"type":"data"},"type":"bar","y":[1596907.56666667,1612200.44,1689522.4,1669719.78666667],"x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"type":"bar","y":[1603110.41333333,1604078.92333333,1676901.6,1687964.99],"name":"threaded-taint","error_y":{"type":"data","array":[23849.7486535704,6805.20658057899,28365.2560569865,25482.2807252411],"visible":1},"x":["5.34.1","5.36.1","5.38.0","5.38.1"]}] ,{"barmode":"group","title":"accessorClassXSAccessorArray_new_get*1 per second, by perl version"} );
+</script>
+</body>
+</html>
+<h2><code>accessorClassXSAccessorArray_new_get*100</code> per second</h2>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="5092db05-8dbd-11ee-a3db-e5f9b9a5e59a"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('5092db05-8dbd-11ee-a3db-e5f9b9a5e59a'),[{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"error_y":{"type":"data","array":[1234.55957177718,669.757443921965,758.631136602118,7294.31814171977],"visible":1},"name":"5.34.1","y":[87001.2,83675.1833333333,108936.073333333,106687.513333333],"type":"bar"},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"error_y":{"type":"data","array":[827.543837361842,2376.99339958884,10305.6577992264,3542.07618025862],"visible":1},"name":"5.36.1","y":[86764.2233333333,84466.1166666667,106665.196666667,107417.933333333],"type":"bar"},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"error_y":{"type":"data","array":[1330.62190362251,1447.12050328306,3152.70509175147,1527.37683683134],"visible":1},"name":"5.38.0","y":[90373.77,88232.0466666667,116529.683333333,115528.816666667],"type":"bar"},{"error_y":{"type":"data","visible":1,"array":[2025.52028426168,2014.44156843086,3005.0674553198,558.358467653178]},"name":"5.38.1","y":[91364.2666666667,87962.4433333333,116103.336666667,116837.79],"type":"bar","x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]}] ,{"barmode":"group","title":"accessorClassXSAccessorArray_new_get*100 per second, by variation"} );
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="5092e482-8dbd-11ee-a3db-f0d5538d295e"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('5092e482-8dbd-11ee-a3db-f0d5538d295e'),[{"y":[87001.2,86764.2233333333,90373.77,91364.2666666667],"type":"bar","error_y":{"array":[1234.55957177718,827.543837361842,1330.62190362251,2025.52028426168],"visible":1,"type":"data"},"name":"nothreads-notaint","x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"y":[83675.1833333333,84466.1166666667,88232.0466666667,87962.4433333333],"type":"bar","error_y":{"array":[669.757443921965,2376.99339958884,1447.12050328306,2014.44156843086],"visible":1,"type":"data"},"name":"nothreads-taint"},{"name":"threaded-notaint","error_y":{"visible":1,"array":[758.631136602118,10305.6577992264,3152.70509175147,3005.0674553198],"type":"data"},"type":"bar","y":[108936.073333333,106665.196666667,116529.683333333,116103.336666667],"x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"name":"threaded-taint","error_y":{"visible":1,"array":[7294.31814171977,3542.07618025862,1527.37683683134,558.358467653178],"type":"data"},"type":"bar","y":[106687.513333333,107417.933333333,115528.816666667,116837.79]}] ,{"barmode":"group","title":"accessorClassXSAccessorArray_new_get*100 per second, by perl version"} );
+</script>
+</body>
+</html>
+<h2><code>accessorClassXSAccessorArray_new_set*1</code> per second</h2>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="5092ee28-8dbd-11ee-a3db-a3fccfe52be2"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('5092ee28-8dbd-11ee-a3db-a3fccfe52be2'),[{"type":"bar","y":[1431822.55,1414256.89,1640927.43333333,1625651.02],"name":"5.34.1","error_y":{"type":"data","visible":1,"array":[3499.98136113141,28574.4472242316,44300.3233619781,37533.4928531021]},"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"error_y":{"type":"data","array":[7413.94317225472,21497.9465484145,102167.483043656,2902.09776018815],"visible":1},"name":"5.36.1","y":[1458974.23666667,1449616.90666667,1638507.36666667,1657164.55333333],"type":"bar","x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"type":"bar","y":[1494130.18,1480523.45,1721248.35,1712241.03],"name":"5.38.0","error_y":{"array":[35130.996407416,32083.8984666763,37823.2998510318,68053.862750013],"visible":1,"type":"data"},"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"name":"5.38.1","error_y":{"type":"data","array":[2875.58866805075,9074.90642676226,59500.4180564479,56507.6922191685],"visible":1},"type":"bar","y":[1498758.24333333,1476556.33666667,1690711.19666667,1706078.57]}] ,{"title":"accessorClassXSAccessorArray_new_set*1 per second, by variation","barmode":"group"} );
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="5092f7d8-8dbd-11ee-a3db-97232c8661b6"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('5092f7d8-8dbd-11ee-a3db-97232c8661b6'),[{"type":"bar","y":[1431822.55,1458974.23666667,1494130.18,1498758.24333333],"name":"nothreads-notaint","error_y":{"type":"data","visible":1,"array":[3499.98136113141,7413.94317225472,35130.996407416,2875.58866805075]},"x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"name":"nothreads-taint","error_y":{"type":"data","visible":1,"array":[28574.4472242316,21497.9465484145,32083.8984666763,9074.90642676226]},"type":"bar","y":[1414256.89,1449616.90666667,1480523.45,1476556.33666667]},{"name":"threaded-notaint","error_y":{"type":"data","visible":1,"array":[44300.3233619781,102167.483043656,37823.2998510318,59500.4180564479]},"type":"bar","y":[1640927.43333333,1638507.36666667,1721248.35,1690711.19666667],"x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"type":"bar","y":[1625651.02,1657164.55333333,1712241.03,1706078.57],"name":"threaded-taint","error_y":{"array":[37533.4928531021,2902.09776018815,68053.862750013,56507.6922191685],"visible":1,"type":"data"}}] ,{"barmode":"group","title":"accessorClassXSAccessorArray_new_set*1 per second, by perl version"} );
+</script>
+</body>
+</html>
+<h2><code>accessorClassXSAccessorArray_new_set*100</code> per second</h2>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="50930161-8dbd-11ee-a3db-c56713b86ada"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('50930161-8dbd-11ee-a3db-c56713b86ada'),[{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"error_y":{"type":"data","array":[3793.0399194431,3623.62343180905,1022.70669700012,2995.39968717959],"visible":1},"name":"5.34.1","y":[85215.4633333333,85752.4033333333,110253.596666667,109287.156666667],"type":"bar"},{"y":[87730.02,85875.86,108750.263333333,112931.67],"type":"bar","error_y":{"visible":1,"array":[2166.05194108236,183.106990217915,6390.2592964466,2606.73197072504],"type":"data"},"name":"5.36.1","x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"error_y":{"array":[1873.6345504927,1892.43820692307,2470.50975571169,606.560934302744],"visible":1,"type":"data"},"name":"5.38.0","y":[85404.04,85460.7066666667,110579.79,110531.286666667],"type":"bar"},{"type":"bar","y":[85911.6866666667,85476.7866666667,111290.956666667,110634.71],"name":"5.38.1","error_y":{"visible":1,"array":[514.165955655916,1835.56224209974,4719.8332066669,2096.44356648746],"type":"data"},"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]}] ,{"barmode":"group","title":"accessorClassXSAccessorArray_new_set*100 per second, by variation"} );
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="50930c50-8dbd-11ee-a3db-e4c3b3bc2b82"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('50930c50-8dbd-11ee-a3db-e4c3b3bc2b82'),[{"y":[85215.4633333333,87730.02,85404.04,85911.6866666667],"type":"bar","error_y":{"visible":1,"array":[3793.0399194431,2166.05194108236,1873.6345504927,514.165955655916],"type":"data"},"name":"nothreads-notaint","x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"name":"nothreads-taint","error_y":{"type":"data","visible":1,"array":[3623.62343180905,183.106990217915,1892.43820692307,1835.56224209974]},"type":"bar","y":[85752.4033333333,85875.86,85460.7066666667,85476.7866666667]},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"error_y":{"array":[1022.70669700012,6390.2592964466,2470.50975571169,4719.8332066669],"visible":1,"type":"data"},"name":"threaded-notaint","y":[110253.596666667,108750.263333333,110579.79,111290.956666667],"type":"bar"},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"y":[109287.156666667,112931.67,110531.286666667,110634.71],"type":"bar","error_y":{"type":"data","visible":1,"array":[2995.39968717959,2606.73197072504,606.560934302744,2096.44356648746]},"name":"threaded-taint"}] ,{"title":"accessorClassXSAccessorArray_new_set*100 per second, by perl version","barmode":"group"} );
+</script>
+</body>
+</html>
+<h2><code>accessorClassXSAccessor_new_get*1</code> per second</h2>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="50931648-8dbd-11ee-a3db-ca1cd21a40e3"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('50931648-8dbd-11ee-a3db-ca1cd21a40e3'),[{"y":[1896144.01333333,1886848.17,2312886.20666667,2277381.48666667],"type":"bar","error_y":{"visible":1,"array":[41656.7970705073,80087.5812926624,54341.7306426465,62417.3232541231],"type":"data"},"name":"5.34.1","x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"y":[1975513.86,1944201.95,2311289.41666667,2331723.28],"type":"bar","error_y":{"type":"data","array":[70988.9899728928,2696.53679112053,56274.0232830892,54232.5309803993],"visible":1},"name":"5.36.1"},{"type":"bar","y":[2074356.73,2012636.02333333,2452740.26333333,2495686.03666667],"name":"5.38.0","error_y":{"visible":1,"array":[5821.73459995098,26607.1995930992,82578.5991979913,83569.9069109165],"type":"data"},"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"y":[2070825.82666667,2032530.65,2459574.56333333,2507164.42666667],"type":"bar","error_y":{"type":"data","array":[33753.3232333583,29125.8944562578,48866.7412975665,97561.9806967192],"visible":1},"name":"5.38.1","x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]}] ,{"barmode":"group","title":"accessorClassXSAccessor_new_get*1 per second, by variation"} );
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="50931fbb-8dbd-11ee-a3db-c9c79fce5428"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('50931fbb-8dbd-11ee-a3db-c9c79fce5428'),[{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"y":[1896144.01333333,1975513.86,2074356.73,2070825.82666667],"type":"bar","error_y":{"visible":1,"array":[41656.7970705073,70988.9899728928,5821.73459995098,33753.3232333583],"type":"data"},"name":"nothreads-notaint"},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"type":"bar","y":[1886848.17,1944201.95,2012636.02333333,2032530.65],"name":"nothreads-taint","error_y":{"visible":1,"array":[80087.5812926624,2696.53679112053,26607.1995930992,29125.8944562578],"type":"data"}},{"type":"bar","y":[2312886.20666667,2311289.41666667,2452740.26333333,2459574.56333333],"name":"threaded-notaint","error_y":{"visible":1,"array":[54341.7306426465,56274.0232830892,82578.5991979913,48866.7412975665],"type":"data"},"x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"type":"bar","y":[2277381.48666667,2331723.28,2495686.03666667,2507164.42666667],"name":"threaded-taint","error_y":{"type":"data","array":[62417.3232541231,54232.5309803993,83569.9069109165,97561.9806967192],"visible":1}}] ,{"title":"accessorClassXSAccessor_new_get*1 per second, by perl version","barmode":"group"} );
+</script>
+</body>
+</html>
+<h2><code>accessorClassXSAccessor_new_get*100</code> per second</h2>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="5093294c-8dbd-11ee-a3db-88df5e7a96be"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('5093294c-8dbd-11ee-a3db-88df5e7a96be'),[{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"error_y":{"visible":1,"array":[7079.98047813379,2591.76157156136,2845.94745151769,7731.92856484217],"type":"data"},"name":"5.34.1","y":[79161.5066666667,79289.0933333333,103885.54,102788.766666667],"type":"bar"},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"name":"5.36.1","error_y":{"visible":1,"array":[711.999383770018,650.573003709464,8482.51116531472,5423.76512513422],"type":"data"},"type":"bar","y":[82163.6833333333,79642.1266666667,101616.443333333,101247.276666667]},{"type":"bar","y":[85063.7633333333,82979.4533333333,113993.066666667,111071.34],"name":"5.38.0","error_y":{"type":"data","visible":1,"array":[2595.73764454131,3694.8377235032,2607.52591812409,1555.85450690822]},"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"error_y":{"array":[4582.49929440257,2952.44049397932,5775.13242801891,782.609086638325],"visible":1,"type":"data"},"name":"5.38.1","y":[86963.75,81734.4666666667,111870.633333333,111767.323333333],"type":"bar","x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]}] ,{"barmode":"group","title":"accessorClassXSAccessor_new_get*100 per second, by variation"} );
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="509332ad-8dbd-11ee-a3db-965dcb03d0db"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('509332ad-8dbd-11ee-a3db-965dcb03d0db'),[{"type":"bar","y":[79161.5066666667,82163.6833333333,85063.7633333333,86963.75],"name":"nothreads-notaint","error_y":{"array":[7079.98047813379,711.999383770018,2595.73764454131,4582.49929440257],"visible":1,"type":"data"},"x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"y":[79289.0933333333,79642.1266666667,82979.4533333333,81734.4666666667],"type":"bar","error_y":{"array":[2591.76157156136,650.573003709464,3694.8377235032,2952.44049397932],"visible":1,"type":"data"},"name":"nothreads-taint"},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"type":"bar","y":[103885.54,101616.443333333,113993.066666667,111870.633333333],"name":"threaded-notaint","error_y":{"array":[2845.94745151769,8482.51116531472,2607.52591812409,5775.13242801891],"visible":1,"type":"data"}},{"name":"threaded-taint","error_y":{"type":"data","array":[7731.92856484217,5423.76512513422,1555.85450690822,782.609086638325],"visible":1},"type":"bar","y":[102788.766666667,101247.276666667,111071.34,111767.323333333],"x":["5.34.1","5.36.1","5.38.0","5.38.1"]}] ,{"title":"accessorClassXSAccessor_new_get*100 per second, by perl version","barmode":"group"} );
+</script>
+</body>
+</html>
+<h2><code>accessorClassXSAccessor_new_set*1</code> per second</h2>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="50933c04-8dbd-11ee-a3db-d1b65bc4f14f"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('50933c04-8dbd-11ee-a3db-d1b65bc4f14f'),[{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"name":"5.34.1","error_y":{"array":[76927.064250438,99975.0927492817,76040.5916735184,58457.6797151741],"visible":1,"type":"data"},"type":"bar","y":[1782866.35333333,1771479.27,2076816.75666667,2054686.23]},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"name":"5.36.1","error_y":{"type":"data","array":[70559.5986961231,8527.19377579493,107263.856909255,71670.8265937179],"visible":1},"type":"bar","y":[1860046.23666667,1826315.74666667,2099824.14666667,2078768.87333333]},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"error_y":{"array":[73479.9871268869,33362.3186112171,74499.2816369896,22990.6297954682],"visible":1,"type":"data"},"name":"5.38.0","y":[1927905.4,1855210.02666667,2221168.68,2250543.02],"type":"bar"},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"name":"5.38.1","error_y":{"array":[85199.469159896,63645.0335875647,51412.6632113945,73630.6291942495],"visible":1,"type":"data"},"type":"bar","y":[1869170.88666667,1857817.29666667,2223254.4,2254877.97]}] ,{"barmode":"group","title":"accessorClassXSAccessor_new_set*1 per second, by variation"} );
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="509345aa-8dbd-11ee-a3db-d360a52f549e"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('509345aa-8dbd-11ee-a3db-d360a52f549e'),[{"y":[1782866.35333333,1860046.23666667,1927905.4,1869170.88666667],"type":"bar","error_y":{"type":"data","visible":1,"array":[76927.064250438,70559.5986961231,73479.9871268869,85199.469159896]},"name":"nothreads-notaint","x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"name":"nothreads-taint","error_y":{"type":"data","array":[99975.0927492817,8527.19377579493,33362.3186112171,63645.0335875647],"visible":1},"type":"bar","y":[1771479.27,1826315.74666667,1855210.02666667,1857817.29666667]},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"error_y":{"type":"data","array":[76040.5916735184,107263.856909255,74499.2816369896,51412.6632113945],"visible":1},"name":"threaded-notaint","y":[2076816.75666667,2099824.14666667,2221168.68,2223254.4],"type":"bar"},{"error_y":{"type":"data","array":[58457.6797151741,71670.8265937179,22990.6297954682,73630.6291942495],"visible":1},"name":"threaded-taint","y":[2054686.23,2078768.87333333,2250543.02,2254877.97],"type":"bar","x":["5.34.1","5.36.1","5.38.0","5.38.1"]}] ,{"barmode":"group","title":"accessorClassXSAccessor_new_set*1 per second, by perl version"} );
+</script>
+</body>
+</html>
+<h2><code>accessorClassXSAccessor_new_set*100</code> per second</h2>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="50934f31-8dbd-11ee-a3db-fab2c5540099"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('50934f31-8dbd-11ee-a3db-fab2c5540099'),[{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"error_y":{"visible":1,"array":[7045.03972982094,6357.67797764771,3523.02557607646,1982.38727681775],"type":"data"},"name":"5.34.1","y":[77708.7366666667,75792.5,101421.196666667,101846.073333333],"type":"bar"},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"error_y":{"visible":1,"array":[766.226558720646,1271.09791349404,3991.0056904773,1867.32757711834],"type":"data"},"name":"5.36.1","y":[81609.2433333333,79259.0333333333,98118.0433333333,103885.97],"type":"bar"},{"type":"bar","y":[79970.0566666667,79504.88,104478.193333333,103140.143333333],"name":"5.38.0","error_y":{"type":"data","array":[1005.60227583054,1800.67899334297,1266.14885616011,163.356131470137],"visible":1},"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"type":"bar","y":[81109.86,79421.32,106746.393333333,101695.76],"name":"5.38.1","error_y":{"type":"data","array":[1053.26137762666,431.908512843486,1276.82951368701,4301.63266502383],"visible":1}}] ,{"barmode":"group","title":"accessorClassXSAccessor_new_set*100 per second, by variation"} );
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="50935892-8dbd-11ee-a3db-94436fc6b49d"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('50935892-8dbd-11ee-a3db-94436fc6b49d'),[{"error_y":{"type":"data","visible":1,"array":[7045.03972982094,766.226558720646,1005.60227583054,1053.26137762666]},"name":"nothreads-notaint","y":[77708.7366666667,81609.2433333333,79970.0566666667,81109.86],"type":"bar","x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"name":"nothreads-taint","error_y":{"type":"data","array":[6357.67797764771,1271.09791349404,1800.67899334297,431.908512843486],"visible":1},"type":"bar","y":[75792.5,79259.0333333333,79504.88,79421.32]},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"type":"bar","y":[101421.196666667,98118.0433333333,104478.193333333,106746.393333333],"name":"threaded-notaint","error_y":{"visible":1,"array":[3523.02557607646,3991.0056904773,1266.14885616011,1276.82951368701],"type":"data"}},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"type":"bar","y":[101846.073333333,103885.97,103140.143333333,101695.76],"name":"threaded-taint","error_y":{"type":"data","visible":1,"array":[1982.38727681775,1867.32757711834,163.356131470137,4301.63266502383]}}] ,{"barmode":"group","title":"accessorClassXSAccessor_new_set*100 per second, by perl version"} );
+</script>
+</body>
+</html>
+<h2><code>accessorHash_new_get*1</code> per second</h2>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="509361de-8dbd-11ee-a3db-804ecc814069"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('509361de-8dbd-11ee-a3db-804ecc814069'),[{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"y":[1325688.33333333,1290287.16333333,1607365.31333333,1546208.94],"type":"bar","error_y":{"visible":1,"array":[44036.7615541904,39243.3743890621,38101.459956813,53765.2554749057],"type":"data"},"name":"5.34.1"},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"name":"5.36.1","error_y":{"array":[16691.7203728184,40053.9433840059,86418.1030302492,56775.5889438153],"visible":1,"type":"data"},"type":"bar","y":[1332175.08666667,1299341.68333333,1611510.99666667,1609179.36]},{"name":"5.38.0","error_y":{"visible":1,"array":[16706.5551380715,60038.175021192,34098.2663483919,56345.0287004794],"type":"data"},"type":"bar","y":[1347372.52333333,1315385.16666667,1659284.86,1686638.9],"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"type":"bar","y":[1336676.34666667,1328595.83,1641993.96333333,1672732.27333333],"name":"5.38.1","error_y":{"type":"data","visible":1,"array":[24645.700083838,32901.3568686075,15820.0206719994,40264.461623979]}}] ,{"title":"accessorHash_new_get*1 per second, by variation","barmode":"group"} );
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="50936b8d-8dbd-11ee-a3db-b02d81da66b4"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('50936b8d-8dbd-11ee-a3db-b02d81da66b4'),[{"y":[1325688.33333333,1332175.08666667,1347372.52333333,1336676.34666667],"type":"bar","error_y":{"type":"data","array":[44036.7615541904,16691.7203728184,16706.5551380715,24645.700083838],"visible":1},"name":"nothreads-notaint","x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"name":"nothreads-taint","error_y":{"visible":1,"array":[39243.3743890621,40053.9433840059,60038.175021192,32901.3568686075],"type":"data"},"type":"bar","y":[1290287.16333333,1299341.68333333,1315385.16666667,1328595.83]},{"type":"bar","y":[1607365.31333333,1611510.99666667,1659284.86,1641993.96333333],"name":"threaded-notaint","error_y":{"array":[38101.459956813,86418.1030302492,34098.2663483919,15820.0206719994],"visible":1,"type":"data"},"x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"error_y":{"array":[53765.2554749057,56775.5889438153,56345.0287004794,40264.461623979],"visible":1,"type":"data"},"name":"threaded-taint","y":[1546208.94,1609179.36,1686638.9,1672732.27333333],"type":"bar"}] ,{"title":"accessorHash_new_get*1 per second, by perl version","barmode":"group"} );
+</script>
+</body>
+</html>
+<h2><code>accessorHash_new_get*100</code> per second</h2>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="5093756f-8dbd-11ee-a3db-9ff0cb01b565"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('5093756f-8dbd-11ee-a3db-9ff0cb01b565'),[{"y":[41652.26,40843.65,54174.1,52705.6266666667],"type":"bar","error_y":{"array":[1528.76125644262,746.078701657315,661.846131564329,1163.67385686693],"visible":1,"type":"data"},"name":"5.34.1","x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"name":"5.36.1","error_y":{"type":"data","visible":1,"array":[543.285599866428,804.517316545903,3924.1415217882,2893.82800338161]},"type":"bar","y":[42119.6266666667,40844.6633333333,52372.4933333333,52535.8366666667],"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"error_y":{"visible":1,"array":[1753.4859864852,2131.15793716833,2146.96902690488,3052.2464784847],"type":"data"},"name":"5.38.0","y":[42782.73,41608.7866666667,56173.2466666667,55580.6633333333],"type":"bar","x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"name":"5.38.1","error_y":{"type":"data","visible":1,"array":[821.937906711261,641.009525115572,2642.30086422169,1369.35276062168]},"type":"bar","y":[42135.6833333333,41901.5066666667,55064.17,55787.6333333333]}] ,{"barmode":"group","title":"accessorHash_new_get*100 per second, by variation"} );
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="50937ee3-8dbd-11ee-a3db-c262a8fae8b8"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('50937ee3-8dbd-11ee-a3db-c262a8fae8b8'),[{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"name":"nothreads-notaint","error_y":{"type":"data","visible":1,"array":[1528.76125644262,543.285599866428,1753.4859864852,821.937906711261]},"type":"bar","y":[41652.26,42119.6266666667,42782.73,42135.6833333333]},{"name":"nothreads-taint","error_y":{"type":"data","visible":1,"array":[746.078701657315,804.517316545903,2131.15793716833,641.009525115572]},"type":"bar","y":[40843.65,40844.6633333333,41608.7866666667,41901.5066666667],"x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"y":[54174.1,52372.4933333333,56173.2466666667,55064.17],"type":"bar","error_y":{"array":[661.846131564329,3924.1415217882,2146.96902690488,2642.30086422169],"visible":1,"type":"data"},"name":"threaded-notaint"},{"type":"bar","y":[52705.6266666667,52535.8366666667,55580.6633333333,55787.6333333333],"name":"threaded-taint","error_y":{"type":"data","array":[1163.67385686693,2893.82800338161,3052.2464784847,1369.35276062168],"visible":1},"x":["5.34.1","5.36.1","5.38.0","5.38.1"]}] ,{"title":"accessorHash_new_get*100 per second, by perl version","barmode":"group"} );
+</script>
+</body>
+</html>
+<h2><code>accessorHash_new_set*1</code> per second</h2>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="50938844-8dbd-11ee-a3db-8b36786c07e5"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('50938844-8dbd-11ee-a3db-8b36786c07e5'),[{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"type":"bar","y":[1398776.58,1367067.80333333,1750598.61,1702521.80666667],"name":"5.34.1","error_y":{"visible":1,"array":[38255.9816986397,35898.0024164479,34306.5849446585,44617.3434203646],"type":"data"}},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"y":[1394889.73333333,1402235.84666667,1718536.39333333,1729988.35],"type":"bar","error_y":{"array":[53529.2306106793,32440.1152415642,106503.285339141,52598.2959427319],"visible":1,"type":"data"},"name":"5.36.1"},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"error_y":{"type":"data","visible":1,"array":[46877.6886826055,37982.4035386996,61487.3493809935,44027.9740911596]},"name":"5.38.0","y":[1426877.78666667,1412415.42666667,1809119.96333333,1802177.72333333],"type":"bar"},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"type":"bar","y":[1438133.41,1386478.89333333,1780292.53,1834023.79666667],"name":"5.38.1","error_y":{"visible":1,"array":[39741.7688268888,41391.5026992943,7006.90195164748,20009.78972017],"type":"data"}}] ,{"title":"accessorHash_new_set*1 per second, by variation","barmode":"group"} );
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="509392c5-8dbd-11ee-a3db-91567e0ad652"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('509392c5-8dbd-11ee-a3db-91567e0ad652'),[{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"y":[1398776.58,1394889.73333333,1426877.78666667,1438133.41],"type":"bar","error_y":{"array":[38255.9816986397,53529.2306106793,46877.6886826055,39741.7688268888],"visible":1,"type":"data"},"name":"nothreads-notaint"},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"name":"nothreads-taint","error_y":{"visible":1,"array":[35898.0024164479,32440.1152415642,37982.4035386996,41391.5026992943],"type":"data"},"type":"bar","y":[1367067.80333333,1402235.84666667,1412415.42666667,1386478.89333333]},{"name":"threaded-notaint","error_y":{"visible":1,"array":[34306.5849446585,106503.285339141,61487.3493809935,7006.90195164748],"type":"data"},"type":"bar","y":[1750598.61,1718536.39333333,1809119.96333333,1780292.53],"x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"type":"bar","y":[1702521.80666667,1729988.35,1802177.72333333,1834023.79666667],"name":"threaded-taint","error_y":{"array":[44617.3434203646,52598.2959427319,44027.9740911596,20009.78972017],"visible":1,"type":"data"},"x":["5.34.1","5.36.1","5.38.0","5.38.1"]}] ,{"barmode":"group","title":"accessorHash_new_set*1 per second, by perl version"} );
+</script>
+</body>
+</html>
+<h2><code>accessorHash_new_set*100</code> per second</h2>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="50939c7e-8dbd-11ee-a3db-930e6050889b"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('50939c7e-8dbd-11ee-a3db-930e6050889b'),[{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"y":[47910.0566666667,45808.8066666667,61889.6466666667,61648.1866666667],"type":"bar","error_y":{"type":"data","array":[454.167570934881,2073.52208832112,1392.80433517737,1198.29629795343],"visible":1},"name":"5.34.1"},{"type":"bar","y":[47913.9733333333,46596.3633333333,60651.58,60724.2766666667],"name":"5.36.1","error_y":{"type":"data","array":[719.872568229187,643.437236997949,2956.41457584464,2694.88510015218],"visible":1},"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"name":"5.38.0","error_y":{"array":[2164.97941485723,1774.26345329235,175.613351302101,3553.62073580673],"visible":1,"type":"data"},"type":"bar","y":[46912.9733333333,45713.1633333333,62455.9766666667,59882.0133333333]},{"y":[46644.03,46316.0733333333,60912.6666666667,60151.6666666667],"type":"bar","error_y":{"array":[154.98044349745,459.903548245597,2386.00816396107,1120.2647856447],"visible":1,"type":"data"},"name":"5.38.1","x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]}] ,{"title":"accessorHash_new_set*100 per second, by variation","barmode":"group"} );
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="5093a5e8-8dbd-11ee-a3db-ecfe472bf93f"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('5093a5e8-8dbd-11ee-a3db-ecfe472bf93f'),[{"type":"bar","y":[47910.0566666667,47913.9733333333,46912.9733333333,46644.03],"name":"nothreads-notaint","error_y":{"visible":1,"array":[454.167570934881,719.872568229187,2164.97941485723,154.98044349745],"type":"data"},"x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"name":"nothreads-taint","error_y":{"type":"data","visible":1,"array":[2073.52208832112,643.437236997949,1774.26345329235,459.903548245597]},"type":"bar","y":[45808.8066666667,46596.3633333333,45713.1633333333,46316.0733333333]},{"type":"bar","y":[61889.6466666667,60651.58,62455.9766666667,60912.6666666667],"name":"threaded-notaint","error_y":{"array":[1392.80433517737,2956.41457584464,175.613351302101,2386.00816396107],"visible":1,"type":"data"},"x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"name":"threaded-taint","error_y":{"type":"data","visible":1,"array":[1198.29629795343,2694.88510015218,3553.62073580673,1120.2647856447]},"type":"bar","y":[61648.1866666667,60724.2766666667,59882.0133333333,60151.6666666667],"x":["5.34.1","5.36.1","5.38.0","5.38.1"]}] ,{"barmode":"group","title":"accessorHash_new_set*100 per second, by perl version"} );
+</script>
+</body>
+</html>
+<h2><code>accessorMoo_new_get*1</code> per second</h2>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="5093afa4-8dbd-11ee-a3db-8add7a6bfc39"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('5093afa4-8dbd-11ee-a3db-8add7a6bfc39'),[{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"name":"5.34.1","error_y":{"type":"data","visible":1,"array":[8437.79433702127,13309.3517481639,15648.3772373779,7956.24054493077]},"type":"bar","y":[617363,607343.556666667,702634.063333333,702327.68]},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"name":"5.36.1","error_y":{"type":"data","visible":1,"array":[8884.77686971502,5463.48770205346,15589.6107253117,29794.0770470747]},"type":"bar","y":[646410.426666667,636905.823333333,733303.893333333,756995.316666667]},{"name":"5.38.0","error_y":{"type":"data","array":[11556.7510462105,6441.61475574431,18148.3795089577,28198.7130893418],"visible":1},"type":"bar","y":[681257.916666667,664081.036666667,821487.086666667,818958.796666667],"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"type":"bar","y":[677037.49,665907.596666667,777601.013333333,811651.366666667],"name":"5.38.1","error_y":{"visible":1,"array":[4527.36754885223,3518.08512287895,60860.9207583593,16512.4474924531],"type":"data"},"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]}] ,{"barmode":"group","title":"accessorMoo_new_get*1 per second, by variation"} );
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="5093b921-8dbd-11ee-a3db-804286559c4e"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('5093b921-8dbd-11ee-a3db-804286559c4e'),[{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"name":"nothreads-notaint","error_y":{"type":"data","visible":1,"array":[8437.79433702127,8884.77686971502,11556.7510462105,4527.36754885223]},"type":"bar","y":[617363,646410.426666667,681257.916666667,677037.49]},{"type":"bar","y":[607343.556666667,636905.823333333,664081.036666667,665907.596666667],"name":"nothreads-taint","error_y":{"array":[13309.3517481639,5463.48770205346,6441.61475574431,3518.08512287895],"visible":1,"type":"data"},"x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"name":"threaded-notaint","error_y":{"array":[15648.3772373779,15589.6107253117,18148.3795089577,60860.9207583593],"visible":1,"type":"data"},"type":"bar","y":[702634.063333333,733303.893333333,821487.086666667,777601.013333333]},{"type":"bar","y":[702327.68,756995.316666667,818958.796666667,811651.366666667],"name":"threaded-taint","error_y":{"type":"data","array":[7956.24054493077,29794.0770470747,28198.7130893418,16512.4474924531],"visible":1},"x":["5.34.1","5.36.1","5.38.0","5.38.1"]}] ,{"barmode":"group","title":"accessorMoo_new_get*1 per second, by perl version"} );
+</script>
+</body>
+</html>
+<h2><code>accessorMoo_new_get*100</code> per second</h2>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="5093c28c-8dbd-11ee-a3db-b11b5ba614f1"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('5093c28c-8dbd-11ee-a3db-b11b5ba614f1'),[{"y":[71507.14,70411.7733333333,87237.26,87693.3166666667],"type":"bar","error_y":{"array":[5473.44945498419,1976.64601075212,3872.36884548291,3309.62671104899],"visible":1,"type":"data"},"name":"5.34.1","x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"type":"bar","y":[74207,70341.3333333333,89656.6033333333,87611.4733333333],"name":"5.36.1","error_y":{"array":[1693.59425483201,1614.09678192549,8884.46677210412,2209.6342160236],"visible":1,"type":"data"},"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"type":"bar","y":[74896.15,75412.5166666667,95722.4866666667,93656.2233333333],"name":"5.38.0","error_y":{"array":[7428.73894333801,1977.65335623365,1967.56432537513,2115.10034317262],"visible":1,"type":"data"}},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"type":"bar","y":[77627.0333333333,75060.09,93487.5266666667,93124.1933333333],"name":"5.38.1","error_y":{"visible":1,"array":[1737.16495600032,2890.49030046231,1946.51725940346,1419.37369759419],"type":"data"}}] ,{"barmode":"group","title":"accessorMoo_new_get*100 per second, by variation"} );
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="5093cbe1-8dbd-11ee-a3db-ac9ae184e9d5"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('5093cbe1-8dbd-11ee-a3db-ac9ae184e9d5'),[{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"y":[71507.14,74207,74896.15,77627.0333333333],"type":"bar","error_y":{"type":"data","array":[5473.44945498419,1693.59425483201,7428.73894333801,1737.16495600032],"visible":1},"name":"nothreads-notaint"},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"error_y":{"array":[1976.64601075212,1614.09678192549,1977.65335623365,2890.49030046231],"visible":1,"type":"data"},"name":"nothreads-taint","y":[70411.7733333333,70341.3333333333,75412.5166666667,75060.09],"type":"bar"},{"name":"threaded-notaint","error_y":{"visible":1,"array":[3872.36884548291,8884.46677210412,1967.56432537513,1946.51725940346],"type":"data"},"type":"bar","y":[87237.26,89656.6033333333,95722.4866666667,93487.5266666667],"x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"name":"threaded-taint","error_y":{"type":"data","array":[3309.62671104899,2209.6342160236,2115.10034317262,1419.37369759419],"visible":1},"type":"bar","y":[87693.3166666667,87611.4733333333,93656.2233333333,93124.1933333333],"x":["5.34.1","5.36.1","5.38.0","5.38.1"]}] ,{"barmode":"group","title":"accessorMoo_new_get*100 per second, by perl version"} );
+</script>
+</body>
+</html>
+<h2><code>accessorMoo_new_set*1</code> per second</h2>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="5093d555-8dbd-11ee-a3db-c431f8acfa42"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('5093d555-8dbd-11ee-a3db-c431f8acfa42'),[{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"error_y":{"type":"data","array":[12699.5818372558,16227.4484758496,11375.3423348731,11086.8813286133],"visible":1},"name":"5.34.1","y":[619867.816666667,605354.793333333,698615.956666667,696549.576666667],"type":"bar"},{"name":"5.36.1","error_y":{"type":"data","array":[10911.3594726515,11303.9351166023,25304.3797927886,29865.469474126],"visible":1},"type":"bar","y":[646869.413333333,641606.373333333,745701.573333333,760318.286666667],"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"name":"5.38.0","error_y":{"type":"data","array":[4543.80874864549,6715.47776046414,26584.2774169011,28037.4547796685],"visible":1},"type":"bar","y":[682779.14,667244.773333333,817384.916666667,821177.626666667]},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"y":[666027.52,665904.046666667,789119.053333333,817937.186666667],"type":"bar","error_y":{"type":"data","visible":1,"array":[5420.60624257714,12449.3871216253,42300.4733479089,15968.9060742794]},"name":"5.38.1"}] ,{"title":"accessorMoo_new_set*1 per second, by variation","barmode":"group"} );
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="5093e167-8dbd-11ee-a3db-b84784082b20"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('5093e167-8dbd-11ee-a3db-b84784082b20'),[{"error_y":{"array":[12699.5818372558,10911.3594726515,4543.80874864549,5420.60624257714],"visible":1,"type":"data"},"name":"nothreads-notaint","y":[619867.816666667,646869.413333333,682779.14,666027.52],"type":"bar","x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"type":"bar","y":[605354.793333333,641606.373333333,667244.773333333,665904.046666667],"name":"nothreads-taint","error_y":{"visible":1,"array":[16227.4484758496,11303.9351166023,6715.47776046414,12449.3871216253],"type":"data"}},{"type":"bar","y":[698615.956666667,745701.573333333,817384.916666667,789119.053333333],"name":"threaded-notaint","error_y":{"array":[11375.3423348731,25304.3797927886,26584.2774169011,42300.4733479089],"visible":1,"type":"data"},"x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"type":"bar","y":[696549.576666667,760318.286666667,821177.626666667,817937.186666667],"name":"threaded-taint","error_y":{"visible":1,"array":[11086.8813286133,29865.469474126,28037.4547796685,15968.9060742794],"type":"data"}}] ,{"title":"accessorMoo_new_set*1 per second, by perl version","barmode":"group"} );
+</script>
+</body>
+</html>
+<h2><code>accessorMoo_new_set*100</code> per second</h2>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="5093ebcb-8dbd-11ee-a3db-e88abe1377ab"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('5093ebcb-8dbd-11ee-a3db-e88abe1377ab'),[{"error_y":{"type":"data","array":[11827.4788409477,5527.61382589872,1386.26159464945,2281.81754843712],"visible":1},"name":"5.34.1","y":[69044.39,70058.69,91210.78,91005.8266666667],"type":"bar","x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"type":"bar","y":[73711.7666666667,71868.5733333333,88570.4,91742.9633333333],"name":"5.36.1","error_y":{"visible":1,"array":[146.45348233787,213.783042878098,8659.76989310918,1428.00161123469],"type":"data"},"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"y":[72129.5166666667,71473.57,91801.3133333333,91701.3366666667],"type":"bar","error_y":{"type":"data","visible":1,"array":[1160.34043651948,488.937567384633,1685.33076297272,1524.56567649792]},"name":"5.38.0"},{"name":"5.38.1","error_y":{"array":[1778.36062824414,444.213525533233,1891.45147688812,1421.39746234315],"visible":1,"type":"data"},"type":"bar","y":[73181.9866666667,72773.71,92833.3233333333,90552.1533333333],"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]}] ,{"barmode":"group","title":"accessorMoo_new_set*100 per second, by variation"} );
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="5093f584-8dbd-11ee-a3db-cdad47681d0e"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('5093f584-8dbd-11ee-a3db-cdad47681d0e'),[{"error_y":{"visible":1,"array":[11827.4788409477,146.45348233787,1160.34043651948,1778.36062824414],"type":"data"},"name":"nothreads-notaint","y":[69044.39,73711.7666666667,72129.5166666667,73181.9866666667],"type":"bar","x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"name":"nothreads-taint","error_y":{"type":"data","visible":1,"array":[5527.61382589872,213.783042878098,488.937567384633,444.213525533233]},"type":"bar","y":[70058.69,71868.5733333333,71473.57,72773.71]},{"name":"threaded-notaint","error_y":{"type":"data","visible":1,"array":[1386.26159464945,8659.76989310918,1685.33076297272,1891.45147688812]},"type":"bar","y":[91210.78,88570.4,91801.3133333333,92833.3233333333],"x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"type":"bar","y":[91005.8266666667,91742.9633333333,91701.3366666667,90552.1533333333],"name":"threaded-taint","error_y":{"visible":1,"array":[2281.81754843712,1428.00161123469,1524.56567649792,1421.39746234315],"type":"data"},"x":["5.34.1","5.36.1","5.38.0","5.38.1"]}] ,{"title":"accessorMoo_new_set*100 per second, by perl version","barmode":"group"} );
+</script>
+</body>
+</html>
+<h2><code>accessorMoose_new_get*1</code> per second</h2>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="5093ff04-8dbd-11ee-a3db-ef12ba506b6e"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('5093ff04-8dbd-11ee-a3db-ef12ba506b6e'),[{"y":[34001.84,33698.6366666667,36695.7366666667,37098.3333333333],"type":"bar","error_y":{"array":[1080.70894743528,240.28623172283,432.875972793856,491.018871146741],"visible":1,"type":"data"},"name":"5.34.1","x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"y":[36000.2733333333,35007.6766666667,38363.7733333333,37943.36],"type":"bar","error_y":{"type":"data","visible":1,"array":[155.752532206986,1193.960919554,991.485497803953,194.497527662091]},"name":"5.36.1"},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"type":"bar","y":[36325.3366666667,35663.5066666667,39470.0866666667,39730.3666666667],"name":"5.38.0","error_y":{"type":"data","array":[417.579020013648,110.541163775711,509.556553965201,693.027565845849],"visible":1}},{"name":"5.38.1","error_y":{"type":"data","array":[1068.19147151727,71.6942346977008,917.655496287506,784.242902337453],"visible":1},"type":"bar","y":[35520.5633333333,35763.6233333333,38891.91,39058.44],"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]}] ,{"title":"accessorMoose_new_get*1 per second, by variation","barmode":"group"} );
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="50940918-8dbd-11ee-a3db-cfb152f6bc35"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('50940918-8dbd-11ee-a3db-cfb152f6bc35'),[{"name":"nothreads-notaint","error_y":{"visible":1,"array":[1080.70894743528,155.752532206986,417.579020013648,1068.19147151727],"type":"data"},"type":"bar","y":[34001.84,36000.2733333333,36325.3366666667,35520.5633333333],"x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"error_y":{"visible":1,"array":[240.28623172283,1193.960919554,110.541163775711,71.6942346977008],"type":"data"},"name":"nothreads-taint","y":[33698.6366666667,35007.6766666667,35663.5066666667,35763.6233333333],"type":"bar"},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"type":"bar","y":[36695.7366666667,38363.7733333333,39470.0866666667,38891.91],"name":"threaded-notaint","error_y":{"type":"data","array":[432.875972793856,991.485497803953,509.556553965201,917.655496287506],"visible":1}},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"y":[37098.3333333333,37943.36,39730.3666666667,39058.44],"type":"bar","error_y":{"type":"data","array":[491.018871146741,194.497527662091,693.027565845849,784.242902337453],"visible":1},"name":"threaded-taint"}] ,{"title":"accessorMoose_new_get*1 per second, by perl version","barmode":"group"} );
+</script>
+</body>
+</html>
+<h2><code>accessorMoose_new_get*100</code> per second</h2>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="509412fa-8dbd-11ee-a3db-bc9a3c6abc4b"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('509412fa-8dbd-11ee-a3db-bc9a3c6abc4b'),[{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"error_y":{"type":"data","visible":1,"array":[96.0251008851318,398.770450370747,628.87578063292,295.115372392262]},"name":"5.34.1","y":[16643.73,16337.1433333333,18992.44,19122.3833333333],"type":"bar"},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"name":"5.36.1","error_y":{"array":[344.151088654709,409.107720125968,1192.50217881935,987.181665280848],"visible":1,"type":"data"},"type":"bar","y":[17001.7033333333,16593.49,19526.4433333333,19664.46]},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"y":[17436.38,17132.7833333333,20251.4833333333,20122.9233333333],"type":"bar","error_y":{"type":"data","visible":1,"array":[573.065463857898,129.545389042691,227.92988064071,286.641967773192]},"name":"5.38.0"},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"type":"bar","y":[17264.8366666667,16989.92,20210.3866666667,19934.2133333333],"name":"5.38.1","error_y":{"type":"data","visible":1,"array":[693.671388931548,145.674017816036,301.108942558816,255.404781126395]}}] ,{"title":"accessorMoose_new_get*100 per second, by variation","barmode":"group"} );
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="50941cbc-8dbd-11ee-a3db-a136e8f33be2"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('50941cbc-8dbd-11ee-a3db-a136e8f33be2'),[{"name":"nothreads-notaint","error_y":{"visible":1,"array":[96.0251008851318,344.151088654709,573.065463857898,693.671388931548],"type":"data"},"type":"bar","y":[16643.73,17001.7033333333,17436.38,17264.8366666667],"x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"name":"nothreads-taint","error_y":{"visible":1,"array":[398.770450370747,409.107720125968,129.545389042691,145.674017816036],"type":"data"},"type":"bar","y":[16337.1433333333,16593.49,17132.7833333333,16989.92],"x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"name":"threaded-notaint","error_y":{"visible":1,"array":[628.87578063292,1192.50217881935,227.92988064071,301.108942558816],"type":"data"},"type":"bar","y":[18992.44,19526.4433333333,20251.4833333333,20210.3866666667]},{"name":"threaded-taint","error_y":{"type":"data","array":[295.115372392262,987.181665280848,286.641967773192,255.404781126395],"visible":1},"type":"bar","y":[19122.3833333333,19664.46,20122.9233333333,19934.2133333333],"x":["5.34.1","5.36.1","5.38.0","5.38.1"]}] ,{"barmode":"group","title":"accessorMoose_new_get*100 per second, by perl version"} );
+</script>
+</body>
+</html>
+<h2><code>accessorMoose_new_set*1</code> per second</h2>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="50942772-8dbd-11ee-a3db-9ae25680efee"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('50942772-8dbd-11ee-a3db-9ae25680efee'),[{"type":"bar","y":[34346.8666666667,33770.7966666667,36796.8666666667,36785.0766666667],"name":"5.34.1","error_y":{"visible":1,"array":[1065.83656787625,628.178598029432,608.668492658818,182.966818363937],"type":"data"},"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"y":[36122.2133333333,35053.09,38364.11,38087.1166666667],"type":"bar","error_y":{"type":"data","visible":1,"array":[71.9626946564823,993.826004221392,884.443612221832,818.609637915955]},"name":"5.36.1","x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"name":"5.38.0","error_y":{"type":"data","visible":1,"array":[328.207979590179,561.7872682391,494.632807107115,975.864279133572]},"type":"bar","y":[36001.78,35681.3166666667,39432.4,39276.2566666667]},{"name":"5.38.1","error_y":{"type":"data","visible":1,"array":[950.405228708029,117.55504696382,784.622060074502,722.127889381256]},"type":"bar","y":[35465.4066666667,35574.9,39019.0733333333,39082.7333333333],"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]}] ,{"title":"accessorMoose_new_set*1 per second, by variation","barmode":"group"} );
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="50943280-8dbd-11ee-a3db-94132eb806a6"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('50943280-8dbd-11ee-a3db-94132eb806a6'),[{"name":"nothreads-notaint","error_y":{"visible":1,"array":[1065.83656787625,71.9626946564823,328.207979590179,950.405228708029],"type":"data"},"type":"bar","y":[34346.8666666667,36122.2133333333,36001.78,35465.4066666667],"x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"type":"bar","y":[33770.7966666667,35053.09,35681.3166666667,35574.9],"name":"nothreads-taint","error_y":{"type":"data","visible":1,"array":[628.178598029432,993.826004221392,561.7872682391,117.55504696382]}},{"name":"threaded-notaint","error_y":{"visible":1,"array":[608.668492658818,884.443612221832,494.632807107115,784.622060074502],"type":"data"},"type":"bar","y":[36796.8666666667,38364.11,39432.4,39019.0733333333],"x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"error_y":{"array":[182.966818363937,818.609637915955,975.864279133572,722.127889381256],"visible":1,"type":"data"},"name":"threaded-taint","y":[36785.0766666667,38087.1166666667,39276.2566666667,39082.7333333333],"type":"bar","x":["5.34.1","5.36.1","5.38.0","5.38.1"]}] ,{"title":"accessorMoose_new_set*1 per second, by perl version","barmode":"group"} );
+</script>
+</body>
+</html>
+<h2><code>accessorMoose_new_set*100</code> per second</h2>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="50943e05-8dbd-11ee-a3db-9940d810ffaf"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('50943e05-8dbd-11ee-a3db-9940d810ffaf'),[{"error_y":{"visible":1,"array":[31.1037018161291,85.4240627041862,238.542647666106,453.852449542311],"type":"data"},"name":"5.34.1","y":[17725.27,17441.8066666667,20266.8433333333,20450.1733333333],"type":"bar","x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"type":"bar","y":[18088.38,17693.16,20627.7866666667,20824.06],"name":"5.36.1","error_y":{"type":"data","array":[341.023183180655,27.5267772662667,1392.35059783407,481.772850487309],"visible":1},"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"name":"5.38.0","error_y":{"type":"data","visible":1,"array":[132.133025226684,65.6581172099511,392.846604951887,420.942777214302]},"type":"bar","y":[18274.1733333333,17939.2566666667,21242.8266666667,21099.1566666667]},{"name":"5.38.1","error_y":{"type":"data","array":[401.86004506821,411.530058953442,85.3830854964189,345.272263969563],"visible":1},"type":"bar","y":[18001.5166666667,17778.5766666667,21099.3033333333,21021.49],"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]}] ,{"barmode":"group","title":"accessorMoose_new_set*100 per second, by variation"} );
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="509448af-8dbd-11ee-a3db-b116a6ef03a3"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('509448af-8dbd-11ee-a3db-b116a6ef03a3'),[{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"y":[17725.27,18088.38,18274.1733333333,18001.5166666667],"type":"bar","error_y":{"array":[31.1037018161291,341.023183180655,132.133025226684,401.86004506821],"visible":1,"type":"data"},"name":"nothreads-notaint"},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"error_y":{"array":[85.4240627041862,27.5267772662667,65.6581172099511,411.530058953442],"visible":1,"type":"data"},"name":"nothreads-taint","y":[17441.8066666667,17693.16,17939.2566666667,17778.5766666667],"type":"bar"},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"error_y":{"visible":1,"array":[238.542647666106,1392.35059783407,392.846604951887,85.3830854964189],"type":"data"},"name":"threaded-notaint","y":[20266.8433333333,20627.7866666667,21242.8266666667,21099.3033333333],"type":"bar"},{"error_y":{"type":"data","visible":1,"array":[453.852449542311,481.772850487309,420.942777214302,345.272263969563]},"name":"threaded-taint","y":[20450.1733333333,20824.06,21099.1566666667,21021.49],"type":"bar","x":["5.34.1","5.36.1","5.38.0","5.38.1"]}] ,{"barmode":"group","title":"accessorMoose_new_set*100 per second, by perl version"} );
+</script>
+</body>
+</html>
+<h2><code>accessorObjectTinyRW_new_get*1</code> per second</h2>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="50945346-8dbd-11ee-a3db-f31a4e453ca2"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('50945346-8dbd-11ee-a3db-f31a4e453ca2'),[{"name":"5.34.1","error_y":{"type":"data","array":[9673.05425211478,28261.3715343533,42981.6126876174,17299.0405106592],"visible":1},"type":"bar","y":[869687.753333333,859690.756666667,1047683.29666667,1052376.34333333],"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"y":[897900.736666667,900023.003333333,1065352.70333333,1075208.54],"type":"bar","error_y":{"type":"data","visible":1,"array":[28220.6629115162,35975.5424947425,78447.256566231,6413.27664647853]},"name":"5.36.1","x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"y":[927279.103333333,922661.17,1123084.02333333,1129536.80666667],"type":"bar","error_y":{"visible":1,"array":[19076.6357703542,14733.6286494536,33796.2628272113,9324.43443725983],"type":"data"},"name":"5.38.0"},{"error_y":{"type":"data","array":[30925.817289496,4156.59430541664,31962.179995451,60656.0122804905],"visible":1},"name":"5.38.1","y":[923251.916666667,893662.753333333,1103233.85,1105432.08333333],"type":"bar","x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]}] ,{"title":"accessorObjectTinyRW_new_get*1 per second, by variation","barmode":"group"} );
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="50945e03-8dbd-11ee-a3db-a9f6eb737148"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('50945e03-8dbd-11ee-a3db-a9f6eb737148'),[{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"type":"bar","y":[869687.753333333,897900.736666667,927279.103333333,923251.916666667],"name":"nothreads-notaint","error_y":{"array":[9673.05425211478,28220.6629115162,19076.6357703542,30925.817289496],"visible":1,"type":"data"}},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"name":"nothreads-taint","error_y":{"type":"data","visible":1,"array":[28261.3715343533,35975.5424947425,14733.6286494536,4156.59430541664]},"type":"bar","y":[859690.756666667,900023.003333333,922661.17,893662.753333333]},{"name":"threaded-notaint","error_y":{"type":"data","visible":1,"array":[42981.6126876174,78447.256566231,33796.2628272113,31962.179995451]},"type":"bar","y":[1047683.29666667,1065352.70333333,1123084.02333333,1103233.85],"x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"error_y":{"type":"data","visible":1,"array":[17299.0405106592,6413.27664647853,9324.43443725983,60656.0122804905]},"name":"threaded-taint","y":[1052376.34333333,1075208.54,1129536.80666667,1105432.08333333],"type":"bar","x":["5.34.1","5.36.1","5.38.0","5.38.1"]}] ,{"barmode":"group","title":"accessorObjectTinyRW_new_get*1 per second, by perl version"} );
+</script>
+</body>
+</html>
+<h2><code>accessorObjectTinyRW_new_get*100</code> per second</h2>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="509468b6-8dbd-11ee-a3db-ffb4a9a33dfd"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('509468b6-8dbd-11ee-a3db-ffb4a9a33dfd'),[{"name":"5.34.1","error_y":{"array":[769.305368469213,435.976943223178,897.601572636769,1236.36834967937],"visible":1,"type":"data"},"type":"bar","y":[35532.7366666667,34269.8666666667,46405.43,44930.5433333333],"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"y":[35898.21,34892.83,45369.6233333333,46769.5],"type":"bar","error_y":{"visible":1,"array":[754.277355000575,282.678855712034,3475.23633503616,699.479038141958],"type":"data"},"name":"5.36.1"},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"type":"bar","y":[36522.73,35829.6266666667,48227.6466666667,47774.22],"name":"5.38.0","error_y":{"type":"data","visible":1,"array":[724.880501048279,711.373879444241,1042.06497178545,932.994306091949]}},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"y":[35979.8433333333,35323.95,47458.43,47448.6566666667],"type":"bar","error_y":{"type":"data","visible":1,"array":[2128.49209700723,1499.23045869095,1191.38087847674,935.765762190994]},"name":"5.38.1"}] ,{"barmode":"group","title":"accessorObjectTinyRW_new_get*100 per second, by variation"} );
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="509473bb-8dbd-11ee-a3db-f8480c851909"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('509473bb-8dbd-11ee-a3db-f8480c851909'),[{"y":[35532.7366666667,35898.21,36522.73,35979.8433333333],"type":"bar","error_y":{"array":[769.305368469213,754.277355000575,724.880501048279,2128.49209700723],"visible":1,"type":"data"},"name":"nothreads-notaint","x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"y":[34269.8666666667,34892.83,35829.6266666667,35323.95],"type":"bar","error_y":{"array":[435.976943223178,282.678855712034,711.373879444241,1499.23045869095],"visible":1,"type":"data"},"name":"nothreads-taint"},{"name":"threaded-notaint","error_y":{"visible":1,"array":[897.601572636769,3475.23633503616,1042.06497178545,1191.38087847674],"type":"data"},"type":"bar","y":[46405.43,45369.6233333333,48227.6466666667,47458.43],"x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"error_y":{"type":"data","array":[1236.36834967937,699.479038141958,932.994306091949,935.765762190994],"visible":1},"name":"threaded-taint","y":[44930.5433333333,46769.5,47774.22,47448.6566666667],"type":"bar"}] ,{"barmode":"group","title":"accessorObjectTinyRW_new_get*100 per second, by perl version"} );
+</script>
+</body>
+</html>
+<h2><code>accessorObjectTinyRW_new_set*1</code> per second</h2>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="50948210-8dbd-11ee-a3db-bd05c8a427a3"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('50948210-8dbd-11ee-a3db-bd05c8a427a3'),[{"y":[870463.19,833908.333333333,1012699.98333333,1021516.54666667],"type":"bar","error_y":{"array":[63272.9665154231,22394.9688950016,49328.3273503824,12182.1895050694],"visible":1,"type":"data"},"name":"5.34.1","x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"y":[875974.153333333,865928.98,1054824.35333333,1039033.69333333],"type":"bar","error_y":{"type":"data","array":[28934.8211116057,21545.8773107123,40299.9419396978,21290.4704088336],"visible":1},"name":"5.36.1"},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"name":"5.38.0","error_y":{"array":[6895.37718850981,2718.22778389809,14664.7743415392,32210.0589150697],"visible":1,"type":"data"},"type":"bar","y":[887870.993333333,879708.953333333,1088470.37,1099914.82]},{"type":"bar","y":[884812.03,864196.9,1079342.12666667,1074033.36333333],"name":"5.38.1","error_y":{"type":"data","array":[21310.4482308999,27910.3735602805,35266.8733895906,31331.2239609428],"visible":1},"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]}] ,{"barmode":"group","title":"accessorObjectTinyRW_new_set*1 per second, by variation"} );
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="50948ece-8dbd-11ee-a3db-f9d5718db677"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('50948ece-8dbd-11ee-a3db-f9d5718db677'),[{"y":[870463.19,875974.153333333,887870.993333333,884812.03],"type":"bar","error_y":{"type":"data","visible":1,"array":[63272.9665154231,28934.8211116057,6895.37718850981,21310.4482308999]},"name":"nothreads-notaint","x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"y":[833908.333333333,865928.98,879708.953333333,864196.9],"type":"bar","error_y":{"visible":1,"array":[22394.9688950016,21545.8773107123,2718.22778389809,27910.3735602805],"type":"data"},"name":"nothreads-taint","x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"name":"threaded-notaint","error_y":{"type":"data","visible":1,"array":[49328.3273503824,40299.9419396978,14664.7743415392,35266.8733895906]},"type":"bar","y":[1012699.98333333,1054824.35333333,1088470.37,1079342.12666667]},{"name":"threaded-taint","error_y":{"type":"data","array":[12182.1895050694,21290.4704088336,32210.0589150697,31331.2239609428],"visible":1},"type":"bar","y":[1021516.54666667,1039033.69333333,1099914.82,1074033.36333333],"x":["5.34.1","5.36.1","5.38.0","5.38.1"]}] ,{"title":"accessorObjectTinyRW_new_set*1 per second, by perl version","barmode":"group"} );
+</script>
+</body>
+</html>
+<h2><code>accessorObjectTinyRW_new_set*100</code> per second</h2>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="509499e5-8dbd-11ee-a3db-f19014b6dfe6"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('509499e5-8dbd-11ee-a3db-f19014b6dfe6'),[{"type":"bar","y":[35425.8666666667,34264.5366666667,44618.7666666667,44711.0733333333],"name":"5.34.1","error_y":{"type":"data","visible":1,"array":[997.745529392246,1528.12487468211,852.932386430617,1260.01706425835]},"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"error_y":{"visible":1,"array":[904.684320780829,499.186428857549,3421.7557729849,1210.58873688246],"type":"data"},"name":"5.36.1","y":[35938.83,34855.3233333333,43986.1166666667,44714.26],"type":"bar","x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"error_y":{"visible":1,"array":[1702.94035615527,1418.04176763435,487.99904517211,1088.97918502707],"type":"data"},"name":"5.38.0","y":[35162.2166666667,34457.5366666667,44906.9766666667,44765.7766666667],"type":"bar","x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"y":[34503.6933333333,34566.14,44094.2266666667,44052.3266666667],"type":"bar","error_y":{"visible":1,"array":[1827.59354958614,970.162834304975,827.306057729276,775.18041260657],"type":"data"},"name":"5.38.1","x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]}] ,{"title":"accessorObjectTinyRW_new_set*100 per second, by variation","barmode":"group"} );
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="5094a40c-8dbd-11ee-a3db-dde9f7aabe4a"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('5094a40c-8dbd-11ee-a3db-dde9f7aabe4a'),[{"error_y":{"type":"data","array":[997.745529392246,904.684320780829,1702.94035615527,1827.59354958614],"visible":1},"name":"nothreads-notaint","y":[35425.8666666667,35938.83,35162.2166666667,34503.6933333333],"type":"bar","x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"error_y":{"type":"data","visible":1,"array":[1528.12487468211,499.186428857549,1418.04176763435,970.162834304975]},"name":"nothreads-taint","y":[34264.5366666667,34855.3233333333,34457.5366666667,34566.14],"type":"bar"},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"y":[44618.7666666667,43986.1166666667,44906.9766666667,44094.2266666667],"type":"bar","error_y":{"type":"data","visible":1,"array":[852.932386430617,3421.7557729849,487.99904517211,827.306057729276]},"name":"threaded-notaint"},{"error_y":{"visible":1,"array":[1260.01706425835,1210.58873688246,1088.97918502707,775.18041260657],"type":"data"},"name":"threaded-taint","y":[44711.0733333333,44714.26,44765.7766666667,44052.3266666667],"type":"bar","x":["5.34.1","5.36.1","5.38.0","5.38.1"]}] ,{"title":"accessorObjectTinyRW_new_set*100 per second, by perl version","barmode":"group"} );
+</script>
+</body>
+</html>
+<h2><code>equalsAssign*26</code> per second</h2>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="5094add1-8dbd-11ee-a3db-d17fe5a4e6bb"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('5094add1-8dbd-11ee-a3db-d17fe5a4e6bb'),[{"type":"bar","y":[216160.326666667,210155.553333333,245337.3,241472.996666667],"name":"5.34.1","error_y":{"type":"data","visible":1,"array":[1398.65299907525,2293.49042549172,4571.27115278307,12797.3470084945]},"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"name":"5.36.1","error_y":{"array":[3657.28675657545,9130.76757864796,17923.2863338693,3104.51432956733],"visible":1,"type":"data"},"type":"bar","y":[212374.593333333,207863.126666667,238964.87,238879.183333333],"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"y":[221512.136666667,215044.74,249622.2,244033.673333333],"type":"bar","error_y":{"visible":1,"array":[1016.56725166394,5392.99902555155,1430.8447475064,2412.35784412032],"type":"data"},"name":"5.38.0"},{"type":"bar","y":[220220.383333333,217897.18,245758.083333333,244045.58],"name":"5.38.1","error_y":{"type":"data","visible":1,"array":[2694.40819161133,1376.33223237221,3309.90699765953,4975.06394743492]},"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]}] ,{"barmode":"group","title":"equalsAssign*26 per second, by variation"} );
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="5094bea8-8dbd-11ee-a3db-ed7329e5f703"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('5094bea8-8dbd-11ee-a3db-ed7329e5f703'),[{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"error_y":{"type":"data","array":[1398.65299907525,3657.28675657545,1016.56725166394,2694.40819161133],"visible":1},"name":"nothreads-notaint","y":[216160.326666667,212374.593333333,221512.136666667,220220.383333333],"type":"bar"},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"name":"nothreads-taint","error_y":{"type":"data","visible":1,"array":[2293.49042549172,9130.76757864796,5392.99902555155,1376.33223237221]},"type":"bar","y":[210155.553333333,207863.126666667,215044.74,217897.18]},{"y":[245337.3,238964.87,249622.2,245758.083333333],"type":"bar","error_y":{"array":[4571.27115278307,17923.2863338693,1430.8447475064,3309.90699765953],"visible":1,"type":"data"},"name":"threaded-notaint","x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"type":"bar","y":[241472.996666667,238879.183333333,244033.673333333,244045.58],"name":"threaded-taint","error_y":{"visible":1,"array":[12797.3470084945,3104.51432956733,2412.35784412032,4975.06394743492],"type":"data"},"x":["5.34.1","5.36.1","5.38.0","5.38.1"]}] ,{"title":"equalsAssign*26 per second, by perl version","barmode":"group"} );
+</script>
+</body>
+</html>
+<h2><code>shiftAssign*26</code> per second</h2>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="5094cc99-8dbd-11ee-a3db-de76fcddf428"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('5094cc99-8dbd-11ee-a3db-de76fcddf428'),[{"name":"5.34.1","error_y":{"array":[864.083036956261,2371.60305352027,3660.95111198655,5343.97112011492],"visible":1,"type":"data"},"type":"bar","y":[188437.366666667,180346.63,214913.966666667,212295.126666667],"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"]},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"error_y":{"type":"data","array":[1266.04285239043,5657.04736178001,12101.8509198148,5018.81169872797],"visible":1},"name":"5.36.1","y":[184511.003333333,181622.356666667,211295.836666667,213172.816666667],"type":"bar"},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"error_y":{"type":"data","visible":1,"array":[8458.27696458853,1060.91048398166,535.50876519436,9952.95200032634]},"name":"5.38.0","y":[188888.486666667,186659.976666667,223745.61,219810.71],"type":"bar"},{"x":["nothreads-notaint","nothreads-taint","threaded-notaint","threaded-taint"],"type":"bar","y":[192371.373333333,186697.376666667,219370.986666667,218739.57],"name":"5.38.1","error_y":{"type":"data","array":[2309.33265681285,2802.71357967395,5955.73989591741,3162.74659223065],"visible":1}}] ,{"barmode":"group","title":"shiftAssign*26 per second, by variation"} );
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+<div id="5094d918-8dbd-11ee-a3db-ce151638845b"></div>
+<script src="https://cdn.plot.ly/plotly-2.14.0.min.js"></script>
+<script>
+Plotly.react(document.getElementById('5094d918-8dbd-11ee-a3db-ce151638845b'),[{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"error_y":{"type":"data","array":[864.083036956261,1266.04285239043,8458.27696458853,2309.33265681285],"visible":1},"name":"nothreads-notaint","y":[188437.366666667,184511.003333333,188888.486666667,192371.373333333],"type":"bar"},{"name":"nothreads-taint","error_y":{"visible":1,"array":[2371.60305352027,5657.04736178001,1060.91048398166,2802.71357967395],"type":"data"},"type":"bar","y":[180346.63,181622.356666667,186659.976666667,186697.376666667],"x":["5.34.1","5.36.1","5.38.0","5.38.1"]},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"y":[214913.966666667,211295.836666667,223745.61,219370.986666667],"type":"bar","error_y":{"visible":1,"array":[3660.95111198655,12101.8509198148,535.50876519436,5955.73989591741],"type":"data"},"name":"threaded-notaint"},{"x":["5.34.1","5.36.1","5.38.0","5.38.1"],"error_y":{"array":[5343.97112011492,5018.81169872797,9952.95200032634,3162.74659223065],"visible":1,"type":"data"},"name":"threaded-taint","y":[212295.126666667,213172.816666667,219810.71,218739.57],"type":"bar"}] ,{"title":"shiftAssign*26 per second, by perl version","barmode":"group"} );
+</script>
+</body>
+</html>
+</body>
+</html>
